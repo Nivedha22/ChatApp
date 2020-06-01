@@ -1,14 +1,18 @@
 import React from 'react'
 import  { StyleSheet,View, Text } from 'react-native'
-
+import Button from '../components/Button'
+import Strings from '../const/String'
+import EmailTextField from '../components/EmailTextField'
 function SignInScreen(){
     return(
         <View style={styles.container}>
             <Text style={styles.text} > SignIn Screen</Text>
-
+            <Button title = {Strings.Join}></Button>
+            <EmailTextField></EmailTextField>
         </View>
     )
 }
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
