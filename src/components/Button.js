@@ -1,6 +1,6 @@
 import React from 'react'
 import { TouchableOpacity, StyleSheet, Text } from 'react-native'
-import Color from '../utils/Colors'
+import Color from '../utils/Color'
 
 const Button = (props) => {
     const { title = 'Enter', style = {}, textStyle = {}, onPress } = props
